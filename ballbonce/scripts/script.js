@@ -1,3 +1,8 @@
+/*
+made by : kavin kumar. B aka rbkavin
+website: https://rbkavin.in
+ig : https://instagram.com/rbkavin
+*/
 const s = require("Scene");
 const a = require("Animation");
 const d = require("Diagnostics");
