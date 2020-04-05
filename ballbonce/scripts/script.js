@@ -8,8 +8,10 @@ const a = require("Animation");
 const d = require("Diagnostics");
 const ti = require("Time");
 
-
-var basketball=s.root.find("Basketball");
+Promise.all([
+    s.root.findAll("Basketball")
+    ]).then( function(result){
+var basketball=result[0];
 
 //degree to rad
 
@@ -62,3 +64,5 @@ function animate(){
     }, 3500);
 }
 animate();
+
+});
